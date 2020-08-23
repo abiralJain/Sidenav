@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    perspective: 500px;
+    overflow: hidden;
+}
+
+#background{
+    width: 100%;
+    height: 100%;
+    background-color: #f8f8f8;
+    transition: all cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.5s;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    height: 60px;
+}
+
+#background i{
+    cursor: pointer;
+}
+
+#headings{
+    margin-top: 50px;
+    text-align: center;
+}
+
+#headings h1{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+#headings p{
+    font-size: 12px;
+}
+
+#elements {
+    width: 100%;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 140px;
+}
+
+#elements .element{
+    width: 20%;
+    height: 270px;
+    border-radius: 7px;
+    padding: 4px;
+    /* background-color: rgb(235, 241, 238); */
+    background-color: rgb(255, 255, 255);
+}
+
+.element .pic{
+    width: 100%;
+    height: 70%;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+#elements .element:nth-child(1) .pic{
+    background-image: url(https://images.unsplash.com/photo-1540845692348-b9d2bc813a63?ixlib=rb-1.2.1&auto=format&fit=crop&w=1905&q=80);
+}
+
+#elements .element:nth-child(2) .pic{
+    background-image: url(https://images.unsplash.com/photo-1530903677198-7c9f3577a63e?ixlib=rb-1.2.1&auto=format&fit=crop&w=2062&q=80);
+}
+
+#elements .element:nth-child(3) .pic{
+    background-image: url(https://images.unsplash.com/photo-1535850836387-0f9dfce30846?ixlib=rb-1.2.1&auto=format&fit=crop&w=1826&q=80);
+}
+
+#elements .element:nth-child(4) .pic{
+    background-image: url(https://images.unsplash.com/photo-1536167038724-17be8c5e6876?ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80);
+}
+
+.element .cntnt{
+    padding: 15px 7px;
+}
+
+.element .cntnt h4{
+    color: #505050;
+    margin-top: 7px;
+    font-size: 14px;
+}
+
+.element .cntnt span{
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.element .cntnt span i{
+    margin-left: 7px;
+}
+
+#sidenav{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    transition: all ease-in-out 0.5s;
+    transform: translate(0,-50%);
+    width: 250px;
+    height: 80%;
+}
+
+#sidenav i{
+    color: rgb(204, 204, 204);
+    margin-top: 2px;
+    margin-right: 16px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#sidenav h4{
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+#sidenav a{
+    display: block;
+    margin-top: 15px;
+    margin-left: 7px;
+    text-decoration: none;
+    color: #777;
+    font-size: 12px;
+}
+
+#sidenav a:hover{
+    color: #000;
+}

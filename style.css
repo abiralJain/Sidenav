@@ -153,7 +153,7 @@ body{
 
     #elements{
         flex-direction: column;
-        padding: 0 80px;
+        padding: 0 50px;
     }
 
     #elements .element {
@@ -162,12 +162,16 @@ body{
     }
 
     #sidenav {
-        left: -24%;
+        left: -37%;
     }
 
     #headings h1{
-        font-size: 30px;
+        font-size: 25px;
         margin-bottom: 20px;
+    }
+    
+    #headings p{
+        font-size: 12px;
     }
 
     #headings{

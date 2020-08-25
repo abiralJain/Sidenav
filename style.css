@@ -153,6 +153,7 @@ body{
 
     #elements{
         flex-direction: column;
+        padding: 0 80px;
     }
 
     #elements .element {

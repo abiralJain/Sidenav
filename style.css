@@ -145,3 +145,35 @@ body{
 #sidenav a:hover{
     color: #000;
 }
+
+@media only screen and (max-width: 500px) {
+    body{
+        overflow-y: auto;
+    }
+
+    #background{
+        min-height: 100%;
+    }
+
+    #elements{
+        flex-direction: column;
+    }
+
+    #elements .element {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #sidenav {
+        left: -24%;
+    }
+
+    #headings h1{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    #headings{
+        margin-top: 30px;
+    }
+}

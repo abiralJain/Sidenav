@@ -151,10 +151,6 @@ body{
         overflow-y: auto;
     }
 
-    #background{
-        min-height: 100%;
-    }
-
     #elements{
         flex-direction: column;
     }
